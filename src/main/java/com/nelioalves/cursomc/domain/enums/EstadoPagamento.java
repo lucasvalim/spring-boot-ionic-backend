@@ -21,7 +21,7 @@ public enum EstadoPagamento {
 	public String getDescricao() {
 		return descricao;
 	}
-	public static TipoCliente toNum(Integer cod) {
+	public static EstadoPagamento toNum(Integer cod) {
 		if (cod == null) {
 			return null;
 		}
